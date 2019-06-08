@@ -1,4 +1,4 @@
-FPG - Fake Profil Generator.
+FPG - Fake Profile Generator.
 
 Python 3.7.1 version tested.
 Compatible with all machines.
