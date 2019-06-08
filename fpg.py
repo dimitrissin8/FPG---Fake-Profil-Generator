@@ -1,15 +1,3 @@
-#-----------------------------------------------------------------------------------------------#
-#Written by Dimitris Sinanis on 04/12/2017.
-# Fake profil generator.
-#Python version: 3.7.1 tested.
-#-----------------------------------------------------------------------------------------------#
-#To run this program correctly, you need to install these two libraries: random, names
-#To install a library do the following:
-#open terminal and excecute this command: sudo apt-get install *library_name*
-#-----------------------------------------------------------------------------------------------#
-
-"====================================The_code_begins_here======================================="
-#imports
 import random,names
 
 def fake_profile_generator(ul,pc,pl):
@@ -59,4 +47,3 @@ ul=int(input("Username length: "))
 pc=input("Password unique characters (yes/no): ")
 pl=int(input("Password length: "))           
 print(fake_profile_generator(ul,pc,pl))
-"==========================================The_end=============================================="
